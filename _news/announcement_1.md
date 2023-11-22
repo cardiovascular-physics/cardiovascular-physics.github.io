@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-10-19 16:11:00-0400
 inline: true
 related_posts: false
 ---
-
-A simple inline announcement.
+Prof. Wessel starts as Prof. for Biostatistics at the medical school berlin
+PD Dr. Niels Wessel in den <a href="https://www.charite.de/die_charite/organisation/leitung/medizinsenat/"> Medizinsenat</a> der Charité gewählt
