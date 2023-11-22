@@ -31,7 +31,7 @@ We use stochastic, analytical and nonlinear methods to analyse body signals, wit
   <a href="publications">
       <div class="card hoverable">
         {%- include figure.html
-        path="assets/img/publications.jpg"
+        path="assets/img/publications_alt.png"
         alt="project thumbnail" -%}
         <div class="card-body">
           <h2 class="card-title">{{ "Publications" }}</h2>
@@ -46,7 +46,7 @@ We use stochastic, analytical and nonlinear methods to analyse body signals, wit
   <a href="teaching">
       <div class="card hoverable">
         {%- include figure.html
-        path="assets/img/teaching.jpg"
+        path="assets/img/teaching_alt.png"
         alt="project thumbnail" -%}
         <div class="card-body">
           <h2 class="card-title">{{ "Teaching" }}</h2>
@@ -61,7 +61,7 @@ We use stochastic, analytical and nonlinear methods to analyse body signals, wit
   <a href="team">
       <div class="card hoverable">
         {%- include figure.html
-        path="assets/img/group.jpg"
+        path="assets/img/group_alt.png"
         alt="project thumbnail" -%}
         <div class="card-body">
           <h2 class="card-title">{{ "Team" }}</h2>
