@@ -515,6 +515,75 @@ footer.sticky-bottom {
   text-decoration: none;
 }
 
+.spacer {
+  height: 300px;
+  max-height: 300px;
+}
+
+.spacer-small {
+  height: 100px;
+  max-height: 100px;
+}
+
+.people {
+  overflow: auto;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+}
+.people .peopleCard {
+  background-color: white;
+  overflow: auto;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid var(--global-divider-color);
+  align-items: center;
+  justify-content: start;
+}
+.people .peopleCard .peopleImgContainer {
+  flex: 1;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: "center";
+}
+.people .peopleCard .peopleImgContainer img {
+  border: 1px solid #cacaca;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.people .peopleCard h1 {
+  color: var(--global-theme-color);
+  font-size: 2rem;
+  text-align: left;
+}
+.people .peopleCard h2 {
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.people .peopleCard .peopleDescContainer {
+  padding: 10px;
+  flex: 2;
+  height: 100%;
+  width: 100%;
+}
+
+.people:hover {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
 .projects a {
   text-decoration: none;
 }
@@ -535,6 +604,9 @@ footer.sticky-bottom {
 .projects .grid-sizer,
 .projects .grid-item {
   width: 250px;
+  max-width: 250px;
+  height: 300px;
+  max-height: 300px;
   margin-bottom: 10px;
 }
 .projects h2.category {
@@ -845,11 +917,13 @@ progress::-moz-progress-bar {
 .btn-group.dropdown .dropdown-item:hover {
   color: var(--global-hover-color);
 }
-.btn-group.dropdown .dropdown-item.active, .btn-group.dropdown .dropdown-item:active {
+.btn-group.dropdown .dropdown-item.active,
+.btn-group.dropdown .dropdown-item:active {
   background-color: var(--global-hover-color);
   color: var(--global-hover-text-color) !important;
 }
-.btn-group.dropdown .dropdown-item.active:hover, .btn-group.dropdown .dropdown-item:active:hover {
+.btn-group.dropdown .dropdown-item.active:hover,
+.btn-group.dropdown .dropdown-item:active:hover {
   color: var(--global-hover-text-color);
 }
 
@@ -895,7 +969,12 @@ nav[data-toggle=toc] .nav-link.active:hover {
 .post .post-content blockquote.block-tip p {
   color: var(--global-tip-block-text);
 }
-.post .post-content blockquote.block-tip h1, .post .post-content blockquote.block-tip h2, .post .post-content blockquote.block-tip h3, .post .post-content blockquote.block-tip h4, .post .post-content blockquote.block-tip h5, .post .post-content blockquote.block-tip h6 {
+.post .post-content blockquote.block-tip h1,
+.post .post-content blockquote.block-tip h2,
+.post .post-content blockquote.block-tip h3,
+.post .post-content blockquote.block-tip h4,
+.post .post-content blockquote.block-tip h5,
+.post .post-content blockquote.block-tip h6 {
   color: var(--global-tip-block-title);
 }
 .post .post-content blockquote.block-warning {
@@ -905,7 +984,12 @@ nav[data-toggle=toc] .nav-link.active:hover {
 .post .post-content blockquote.block-warning p {
   color: var(--global-warning-block-text);
 }
-.post .post-content blockquote.block-warning h1, .post .post-content blockquote.block-warning h2, .post .post-content blockquote.block-warning h3, .post .post-content blockquote.block-warning h4, .post .post-content blockquote.block-warning h5, .post .post-content blockquote.block-warning h6 {
+.post .post-content blockquote.block-warning h1,
+.post .post-content blockquote.block-warning h2,
+.post .post-content blockquote.block-warning h3,
+.post .post-content blockquote.block-warning h4,
+.post .post-content blockquote.block-warning h5,
+.post .post-content blockquote.block-warning h6 {
   color: var(--global-warning-block-title);
 }
 .post .post-content blockquote.block-danger {
@@ -915,7 +999,12 @@ nav[data-toggle=toc] .nav-link.active:hover {
 .post .post-content blockquote.block-danger p {
   color: var(--global-danger-block-text);
 }
-.post .post-content blockquote.block-danger h1, .post .post-content blockquote.block-danger h2, .post .post-content blockquote.block-danger h3, .post .post-content blockquote.block-danger h4, .post .post-content blockquote.block-danger h5, .post .post-content blockquote.block-danger h6 {
+.post .post-content blockquote.block-danger h1,
+.post .post-content blockquote.block-danger h2,
+.post .post-content blockquote.block-danger h3,
+.post .post-content blockquote.block-danger h4,
+.post .post-content blockquote.block-danger h5,
+.post .post-content blockquote.block-danger h6 {
   color: var(--global-danger-block-title);
 }
 
