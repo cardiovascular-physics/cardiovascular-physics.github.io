@@ -2,8 +2,8 @@
 layout: page
 name: Dominik Kranz
 title: PhD Student
-description: Dominik studied biophysics at the Humboldt-University and is now working on his PhD regarding the development of personalised medicine. His interests include neural networks,the development of automatisation techniques and consumer hardware.
-img: assets/img/dominik_kranz_circ.jpg
+description: Dominik studied biophysics at the Humboldt-University and is now working on his PhD regarding the utilisation of wearables and consumer hardware together with powerful new automatisation techniques like neural networks/ machine learning.
+img: assets/img/dominik_kranz_circ.png
 importance: 1
 category: work
 ---

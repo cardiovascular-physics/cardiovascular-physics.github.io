@@ -33,7 +33,7 @@ nav_order: 5
      {% include figure.html path="assets/img/comp_sign_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-5 mt-3 mt-md-0">
-        <h2> Computational Biosignal analysis 1 </h2>
+        <h2> Computational Biosignal analysis 2 </h2>
         <p>An introductory course to biosignal processing. The course focuses on: </p>
         <ul>
             <li>Data collection and preprocessing</li>
@@ -52,18 +52,8 @@ nav_order: 5
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-5 mt-3 mt-md-0">
-        <h2> Computational Biosignal analysis 1 </h2>
-        <p>An introductory course to biosignal processing. The course focuses on: </p>
-        <ul>
-            <li>Data collection and preprocessing</li>
-            <li>Spectral analysis</li>
-            <li>Filters</li>
-            <li>Probability and statistical tests</li>
-            <li>Descriptive models</li>
-            <li>Biosignals: Brain, Lungs and Cardiovascular System</li>
-            <li>Prediction of diseases</li>
-        </ul>
-        <p>The course also includes a session where sutdents can record their own biosignals and analyze them. The course consists of 1 Lecture and 1 Seminar per week.</p>
+        <h2> Journal Club </h2>
+        <p>A seminar where students research and present papers on the field of biosignals or related fields</p>
     </div>
     <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.html path="assets/img/journal_club.png" title="example image" class="img-fluid rounded z-depth-1" %}
