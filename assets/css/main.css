@@ -605,9 +605,9 @@ footer.sticky-bottom {
 .projects .grid-item {
   width: 250px;
   max-width: 250px;
-  height: 300px;
-  max-height: 300px;
-  margin-bottom: 10px;
+  height: 400px;
+  max-height: 400px;
+  margin-bottom: 50px;
 }
 .projects h2.category {
   color: var(--global-divider-color);
