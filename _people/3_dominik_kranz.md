@@ -6,4 +6,5 @@ description: Dominik studied biophysics at the Humboldt-University and is now wo
 img: assets/img/dominik_kranz_circ.png
 importance: 1
 category: work
+email: Dominik.d.kranz@gmail.com
 ---
